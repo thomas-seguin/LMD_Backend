@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "==0.70.0"
+uvicorn = "==0.15.0"
+motor = "==2.5.1"
+pymongo = {extras = ["srv", "tls"],version = "==3.12.1"}
+python-decouple = "==3.3"
+python-multipart = "==0.0.5"
+passlib = "==1.7.4"
+bcrypt = "==3.2.0"
+PyJWT = "==2.3.0"
+
+[requires]
+python_version = "3.7"

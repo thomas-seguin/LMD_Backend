@@ -1,0 +1,1 @@
+{"id":"d3dea92c-f227-4520-a3d7-a5500ea91dc8","space":12686,"runtime":"python3.9","name":"backend","path":"3sz5ps","project":"b0o04yxr","account":"144798365827","region":"us-west-1","deps":["fastapi==0.70.0","uvicorn==0.15.0","motor==2.5.1","pymongo[tls,srv]==3.12.1"],"envs":["DB_URL","DB_NAME"],"public":true,"log_level":"debug","cron":""}
